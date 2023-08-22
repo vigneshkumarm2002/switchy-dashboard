@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/switchy-dashboard/static/css/main.817a9abc.css",
+    "main.js": "/switchy-dashboard/static/js/main.7c5971d5.js",
+    "static/media/Switchy-Logo.png": "/switchy-dashboard/static/media/Switchy-Logo.8cf4f1f0fc9852d6977f.png",
+    "index.html": "/switchy-dashboard/index.html",
+    "main.817a9abc.css.map": "/switchy-dashboard/static/css/main.817a9abc.css.map",
+    "main.7c5971d5.js.map": "/switchy-dashboard/static/js/main.7c5971d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.817a9abc.css",
+    "static/js/main.7c5971d5.js"
+  ]
+}
