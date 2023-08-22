@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import EnergyDashboard from './comps/EnergyDashboard';
+import EnergyDistribution from './comps/EnergyDistribution';
 import './App.css';
+import logo from "./Switchy-Logo.png"
+import profile from "./profile.png"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+      <div className='profileCon'>
+       <img className="logo" src={logo}/>
+       <h1>Switchy</h1>
+       </div>
+       <div className='profileCon'>
+       <img className="profile" src={profile} onClick={()=> alert("Under Construction")}/>
+       </div>
+      </nav>
+      <h1 className='dash'>Dashboard</h1>
+      <div className='graphs'>
+      <div className='graph1'>
+  <EnergyDashboard/>
+</div>
+<div className='graph1'>
+  <EnergyDistribution/>
+</div>
+
+      </div>
     </div>
   );
 }
